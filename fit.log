@@ -1,0 +1,1747 @@
+
+
+*******************************************************************************
+Sun Dec 01 10:40:54 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(t)
+	f(t) = A * exp(-gamma * t) * cos(omega * t + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 6.9534298343e+04   0.00e+00  9.55e+00    2.100000e+01   2.000000e+00   1.500000e+00   5.000000e-01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 10:45:33 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(t)
+	f(t) = A * exp(-gamma * t) * cos(omega * t + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 6.9534298343e+04   0.00e+00  9.55e+00    2.100000e+01   2.000000e+00   1.500000e+00   5.000000e-01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 10:49:59 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:5:6:7
+        format = x:y:t:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(t)
+	f(t) = A * exp(-gamma * t) * cos(omega * t + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 6.2362253182e+30   0.00e+00  5.07e+15    2.100000e+01   2.000000e+00   1.500000e+00   5.000000e-01
+  11 5.8847448137e+02  -8.56e-08  5.07e+04    4.952025e-13   1.667920e+00   1.509723e+00   5.316119e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 588.474
+rel. change during last iteration : -8.55634e-13
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.83377
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.36271
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 4.95202e-13      +/- 9.491e-10    (1.917e+05%)
+gamma           = 1.66792          +/- 121.9        (7311%)
+omega           = 1.50972          +/- 229.6        (1.521e+04%)
+phi             = 0.531612         +/- 3650         (6.867e+05%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma          -0.999  1.000 
+omega           0.346 -0.378  1.000 
+phi             0.332 -0.364  1.000  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 10:54:08 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 9.8138747351e+03   0.00e+00  2.18e+00    2.100000e+01   2.000000e+00   1.500000e+00   5.000000e-01
+  19 2.5020812584e+02  -2.66e-04  2.18e+02    2.058938e+01   3.572692e-01   7.461295e+00  -2.236366e+00
+
+After 19 iterations the fit converged.
+final sum of squares of residuals : 250.208
+rel. change during last iteration : -2.6633e-09
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.19573
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.42976
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.5894          +/- 0.4025       (1.955%)
+gamma           = 0.357269         +/- 0.01084      (3.034%)
+omega           = 7.46129          +/- 0.0103       (0.1381%)
+phi             = -2.23637         +/- 0.01779      (0.7954%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.749  1.000 
+omega          -0.036 -0.045  1.000 
+phi             0.041  0.043 -0.718  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 10:54:28 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 9.8138747351e+03   0.00e+00  2.18e+00    2.100000e+01   2.000000e+00   1.500000e+00   5.000000e-01
+  19 2.5020812584e+02  -2.66e-04  2.18e+02    2.058938e+01   3.572692e-01   7.461295e+00  -2.236366e+00
+
+After 19 iterations the fit converged.
+final sum of squares of residuals : 250.208
+rel. change during last iteration : -2.6633e-09
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.19573
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.42976
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.5894          +/- 0.4025       (1.955%)
+gamma           = 0.357269         +/- 0.01084      (3.034%)
+omega           = 7.46129          +/- 0.0103       (0.1381%)
+phi             = -2.23637         +/- 0.01779      (0.7954%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.749  1.000 
+omega          -0.036 -0.045  1.000 
+phi             0.041  0.043 -0.718  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 10:56:11 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 9.8138747351e+03   0.00e+00  2.18e+00    2.100000e+01   2.000000e+00   1.500000e+00   5.000000e-01
+  19 2.5020812584e+02  -2.66e-04  2.18e+02    2.058938e+01   3.572692e-01   7.461295e+00  -2.236366e+00
+
+After 19 iterations the fit converged.
+final sum of squares of residuals : 250.208
+rel. change during last iteration : -2.6633e-09
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.19573
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.42976
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.5894          +/- 0.4025       (1.955%)
+gamma           = 0.357269         +/- 0.01084      (3.034%)
+omega           = 7.46129          +/- 0.0103       (0.1381%)
+phi             = -2.23637         +/- 0.01779      (0.7954%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.749  1.000 
+omega          -0.036 -0.045  1.000 
+phi             0.041  0.043 -0.718  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 10:57:20 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 9.8848733201e+03   0.00e+00  1.59e+00    2.100000e+01   4.000000e+00   1.500000e+00   5.000000e-01
+  27 2.5020714848e+02  -2.32e-01  1.59e+01    2.058644e+01   3.573250e-01   7.461097e+00  -2.235875e+00
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 250.207
+rel. change during last iteration : -2.31841e-06
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.19572
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.42976
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.5864          +/- 0.4026       (1.956%)
+gamma           = 0.357325         +/- 0.01084      (3.035%)
+omega           = 7.4611           +/- 0.01031      (0.1381%)
+phi             = -2.23587         +/- 0.01779      (0.7957%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.749  1.000 
+omega          -0.035 -0.044  1.000 
+phi             0.040  0.043 -0.718  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 11:12:21 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(t)
+	f(t) = A * exp(-gamma * t) * cos(omega * t + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 9.1952661744e+04   0.00e+00  1.08e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:12:39 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(t)
+	f(t) = A * exp(-gamma * t) * cos(omega * t + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 9.1952661744e+04   0.00e+00  1.08e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:13:07 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(t)
+	f(t) = A * exp(-gamma * t) * cos(omega * t + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 9.1952661744e+04   0.00e+00  1.08e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:13:26 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(t)
+	f(t) = A * exp(-gamma * t) * cos(omega * t + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 9.1952661744e+04   0.00e+00  1.08e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:15:11 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(t)
+	f(t) = A * exp(-gamma * t) * cos(omega * t + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 9.1952661744e+04   0.00e+00  1.08e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:16:05 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.1475343636e+04   0.00e+00  8.22e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+  27 2.3003980281e+02  -4.57e-01  8.22e-07    2.084136e+01   3.620858e-01   7.467677e+00  -2.250013e+00
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : -4.57385e-06
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8414          +/- 0.392        (1.881%)
+gamma           = 0.362086         +/- 0.01048      (2.894%)
+omega           = 7.46768          +/- 0.009861     (0.1321%)
+phi             = -2.25001         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 11:17:41 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.1475343636e+04   0.00e+00  8.22e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+  27 2.3003980281e+02  -4.57e-01  8.22e-07    2.084136e+01   3.620858e-01   7.467677e+00  -2.250013e+00
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : -4.57385e-06
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8414          +/- 0.392        (1.881%)
+gamma           = 0.362086         +/- 0.01048      (2.894%)
+omega           = 7.46768          +/- 0.009861     (0.1321%)
+phi             = -2.25001         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 11:17:54 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.1475343636e+04   0.00e+00  8.22e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+  27 2.3003980281e+02  -4.57e-01  8.22e-07    2.084136e+01   3.620858e-01   7.467677e+00  -2.250013e+00
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : -4.57385e-06
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8414          +/- 0.392        (1.881%)
+gamma           = 0.362086         +/- 0.01048      (2.894%)
+omega           = 7.46768          +/- 0.009861     (0.1321%)
+phi             = -2.25001         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 11:18:02 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        x range restricted to [0.746681 : 4.58668]
+        #datapoints = 115
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 2.0350697171e+04   0.00e+00  7.63e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+  67 4.3589359201e+01  -1.89e-01  7.63e-06    2.173629e+01   3.454666e-01   7.470249e+00  -2.251684e+00
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 43.5894
+rel. change during last iteration : -1.89261e-06
+
+degrees of freedom    (FIT_NDF)                        : 111
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.626655
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.392697
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 21.7363          +/- 0.4112       (1.892%)
+gamma           = 0.345467         +/- 0.00882      (2.553%)
+omega           = 7.47025          +/- 0.008858     (0.1186%)
+phi             = -2.25168         +/- 0.01867      (0.8293%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.897  1.000 
+omega          -0.086 -0.074  1.000 
+phi             0.112  0.095 -0.896  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 11:19:24 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.1475343636e+04   0.00e+00  8.22e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+  27 2.3003980281e+02  -4.57e-01  8.22e-07    2.084136e+01   3.620858e-01   7.467677e+00  -2.250013e+00
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : -4.57385e-06
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8414          +/- 0.392        (1.881%)
+gamma           = 0.362086         +/- 0.01048      (2.894%)
+omega           = 7.46768          +/- 0.009861     (0.1321%)
+phi             = -2.25001         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 11:19:39 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.1475343636e+04   0.00e+00  8.22e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+  27 2.3003980281e+02  -4.57e-01  8.22e-07    2.084136e+01   3.620858e-01   7.467677e+00  -2.250013e+00
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : -4.57385e-06
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8414          +/- 0.392        (1.881%)
+gamma           = 0.362086         +/- 0.01048      (2.894%)
+omega           = 7.46768          +/- 0.009861     (0.1321%)
+phi             = -2.25001         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 11:24:34 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:(log(abs($6)))
+        format = x:z
+        #datapoints = 175
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 1.0313058026e+03   0.00e+00  2.19e+00   -3.000000e+00   3.091042e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:25:00 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:(log(abs($6)))
+        format = x:z
+        #datapoints = 175
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 7.6943811955e+04   0.00e+00  1.56e+01   -3.000000e+00   2.200000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:25:13 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 9.5371694300e+04   0.00e+00  1.56e+01   -3.000000e+00   2.200000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:25:19 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 9.5371694300e+04   0.00e+00  1.56e+01   -3.000000e+00   2.200000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:25:40 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 9.5371694300e+04   0.00e+00  1.56e+01   -3.000000e+00   2.200000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:25:57 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 3.5525725430e+05   0.00e+00  3.11e+01   -3.000000e+00   4.400000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:26:21 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(x)
+	damping_line(x) = m * x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 4.3707999605e+04   0.00e+00  1.72e+01   -3.000000e+00   2.200000e+01
+   3 8.7386514923e+03  -1.71e-04  1.72e-02   -1.916022e-01   5.701917e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 8738.65
+rel. change during last iteration : -1.70694e-09
+
+degrees of freedom    (FIT_NDF)                        : 177
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.02644
+variance of residuals (reduced chisquare) = WSSR/ndf   : 49.3709
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.191602        +/- 0.305        (159.2%)
+b               = 0.570192         +/- 1.045        (183.2%)
+
+correlation matrix of the fit parameters:
+                m      b      
+m               1.000 
+b              -0.864  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 11:27:01 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(x)
+	damping_line(x) = m * x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 3.0266497525e+04   0.00e+00  1.97e+01   -5.000000e+00   2.200000e+01
+   3 8.7386514923e+03  -6.39e-05  1.97e-02   -1.916022e-01   5.701917e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 8738.65
+rel. change during last iteration : -6.39245e-10
+
+degrees of freedom    (FIT_NDF)                        : 177
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.02644
+variance of residuals (reduced chisquare) = WSSR/ndf   : 49.3709
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.191602        +/- 0.305        (159.2%)
+b               = 0.570192         +/- 1.045        (183.2%)
+
+correlation matrix of the fit parameters:
+                m      b      
+m               1.000 
+b              -0.864  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 11:30:21 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:(log(abs($6)))
+        format = x:z
+        #datapoints = 175
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 1.0313058026e+03   0.00e+00  2.19e+00   -1.000000e-01   3.091042e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:31:17 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 9.5371694300e+04   0.00e+00  1.56e+01   -3.000000e+00   2.200000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:32:56 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 9.5371694300e+04   0.00e+00  1.56e+01   -3.000000e+00   2.200000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:37:03 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 170
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 5.2307642000e+04   0.00e+00  1.13e+01   -3.000000e+00   1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:39:08 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 170
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 5.2307642000e+04   0.00e+00  1.13e+01   -3.000000e+00   1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:40:07 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 170
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 5.2307642000e+04   0.00e+00  1.13e+01   -3.000000e+00   1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:40:47 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 170
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 5.2307642000e+04   0.00e+00  1.13e+01   -3.000000e+00   1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:41:04 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 170
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 5.2307642000e+04   0.00e+00  1.13e+01   -3.000000e+00   1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:43:53 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 170
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 5.2307642000e+04   0.00e+00  1.13e+01   -3.000000e+00   1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:47:54 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(x)
+	damping_line(x) = m * x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 2.7792727605e+04   0.00e+00  1.47e+01   -3.000000e+00   1.800000e+01
+   3 8.7386514923e+03  -6.56e-05  1.47e-02   -1.916022e-01   5.701917e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 8738.65
+rel. change during last iteration : -6.56417e-10
+
+degrees of freedom    (FIT_NDF)                        : 177
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.02644
+variance of residuals (reduced chisquare) = WSSR/ndf   : 49.3709
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.191602        +/- 0.305        (159.2%)
+b               = 0.570192         +/- 1.045        (183.2%)
+
+correlation matrix of the fit parameters:
+                m      b      
+m               1.000 
+b              -0.864  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 11:50:01 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:(log(abs($6)))
+        format = x:z
+        #datapoints = 175
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 1.0313058026e+03   0.00e+00  2.19e+00   -1.000000e-01   3.091042e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:51:39 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:(log(abs($6)))
+        format = x:z
+        #datapoints = 155
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 5.7971874424e+02   0.00e+00  2.19e+00   -1.000000e-01   3.091042e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:51:59 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:(log(abs($6)))
+        format = x:z
+        #datapoints = 155
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 3.3063585964e+04   0.00e+00  1.13e+01   -3.000000e+00   1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:52:18 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:(log(abs($6)))
+        format = x:z
+        #datapoints = 155
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 3.3063585964e+04   0.00e+00  1.13e+01   -3.000000e+00   1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:54:24 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:(log(abs($6)))
+        format = x:z
+        #datapoints = 155
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 3.3063585964e+04   0.00e+00  1.13e+01   -3.000000e+00   1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 11:54:41 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:(log(abs($6)))
+        format = x:z
+        #datapoints = 155
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 3.3063585964e+04   0.00e+00  1.13e+01   -2.500000e+00   1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:01:06 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:(log(abs($6)))
+        format = x:z
+        #datapoints = 155
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 3.3063585964e+04   0.00e+00  1.13e+01   -5.000000e-01   1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:01:44 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 4.8868452300e+04   0.00e+00  1.13e+01   -5.000000e-01  -1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:01:52 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 4.8868452300e+04   0.00e+00  1.13e+01    5.000000e-01  -1.600000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:02:13 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'b' is zero.
+iter      chisq       delta/lim  lambda   m             b            
+   0 8.7574123000e+03   0.00e+00  7.07e-01   -5.000000e-01   1.000000e-30
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:02:47 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 7.1658612300e+04   0.00e+00  1.41e+01   -5.000000e-01   2.000000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:04:15 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 7.1658612300e+04   0.00e+00  1.41e+01   -5.000000e-01   2.000000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:04:35 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 7.1658612300e+04   0.00e+00  1.41e+01   -5.000000e-01   2.000000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:04:45 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 7.1658612300e+04   0.00e+00  1.41e+01   -5.000000e-01   2.000000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:04:55 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 7.1658612300e+04   0.00e+00  1.41e+01   -5.000000e-01   2.000000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:05:10 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 7.1658612300e+04   0.00e+00  1.41e+01   -5.000000e-01   2.000000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:05:37 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 7.1658612300e+04   0.00e+00  1.41e+01   -5.000000e-01   2.000000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:05:56 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 7.1658612300e+04   0.00e+00  1.41e+01   -5.000000e-01   2.000000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:06:41 2024
+
+
+FIT:    data read from "schwacheDämfpungV2.csv" using 2:6
+        format = x:z
+        #datapoints = 157
+        residuals are weighted equally (unit weight)
+
+function used for fitting: damping_line(t)
+	damping_line(t) = m * t + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             b            
+   0 7.1658612300e+04   0.00e+00  1.41e+01   -5.000000e-01   2.000000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Dec 01 12:09:36 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.1475343636e+04   0.00e+00  8.22e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+  27 2.3003980281e+02  -4.57e-01  8.22e-07    2.084136e+01   3.620858e-01   7.467677e+00  -2.250013e+00
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : -4.57385e-06
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8414          +/- 0.392        (1.881%)
+gamma           = 0.362086         +/- 0.01048      (2.894%)
+omega           = 7.46768          +/- 0.009861     (0.1321%)
+phi             = -2.25001         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 12:39:19 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.1475343636e+04   0.00e+00  8.22e+01    2.200000e+01   1.000000e-01   4.830769e+00   2.000000e-01
+  27 2.3003980281e+02  -4.57e-01  8.22e-07    2.084136e+01   3.620858e-01   7.467677e+00  -2.250013e+00
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : -4.57385e-06
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8414          +/- 0.392        (1.881%)
+gamma           = 0.362086         +/- 0.01048      (2.894%)
+omega           = 7.46768          +/- 0.009861     (0.1321%)
+phi             = -2.25001         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 12:39:57 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.0616941065e+04   0.00e+00  8.40e+01    2.200000e+01   1.000000e-01   4.830769e+00  -5.000000e-01
+  80 4.0580812616e+03  -3.87e-01  8.40e+00    3.372798e+01   1.594600e+00   7.366393e+00  -2.224997e+00
+
+After 80 iterations the fit converged.
+final sum of squares of residuals : 4058.08
+rel. change during last iteration : -3.8683e-06
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.8155
+variance of residuals (reduced chisquare) = WSSR/ndf   : 23.189
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 33.728           +/- 3.823        (11.33%)
+gamma           = 1.5946           +/- 0.2324       (14.58%)
+omega           = 7.36639          +/- 0.194        (2.634%)
+phi             = -2.225           +/- 0.07589      (3.411%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.770  1.000 
+omega          -0.166 -0.143  1.000 
+phi             0.203  0.178 -0.641  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 12:40:08 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.2184297276e+04   0.00e+00  8.24e+01    2.200000e+01   1.000000e-01   4.830769e+00   5.000000e-01
+  37 2.3003998105e+02   0.00e+00  8.24e+07    2.084331e+01   3.621561e-01   7.467680e+00  -2.250015e+00
+
+After 37 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8433          +/- 0.392        (1.881%)
+gamma           = 0.362156         +/- 0.01048      (2.893%)
+omega           = 7.46768          +/- 0.009862     (0.1321%)
+phi             = -2.25002         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 12:41:40 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.2184297276e+04   0.00e+00  8.24e+01    2.200000e+01   1.000000e-01   4.830769e+00   5.000000e-01
+  37 2.3003998105e+02   0.00e+00  8.24e+07    2.084331e+01   3.621561e-01   7.467680e+00  -2.250015e+00
+
+After 37 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8433          +/- 0.392        (1.881%)
+gamma           = 0.362156         +/- 0.01048      (2.893%)
+omega           = 7.46768          +/- 0.009862     (0.1321%)
+phi             = -2.25002         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 12:42:34 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.2184297276e+04   0.00e+00  8.24e+01    2.200000e+01   1.000000e-01   4.830769e+00   5.000000e-01
+  37 2.3003998105e+02   0.00e+00  8.24e+07    2.084331e+01   3.621561e-01   7.467680e+00  -2.250015e+00
+
+After 37 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8433          +/- 0.392        (1.881%)
+gamma           = 0.362156         +/- 0.01048      (2.893%)
+omega           = 7.46768          +/- 0.009862     (0.1321%)
+phi             = -2.25002         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 12:45:42 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.2184297276e+04   0.00e+00  8.24e+01    2.200000e+01   1.000000e-01   4.830769e+00   5.000000e-01
+  37 2.3003998105e+02   0.00e+00  8.24e+07    2.084331e+01   3.621561e-01   7.467680e+00  -2.250015e+00
+
+After 37 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8433          +/- 0.392        (1.881%)
+gamma           = 0.362156         +/- 0.01048      (2.893%)
+omega           = 7.46768          +/- 0.009862     (0.1321%)
+phi             = -2.25002         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 12:46:33 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.2184297276e+04   0.00e+00  8.24e+01    2.200000e+01   1.000000e-01   4.830769e+00   5.000000e-01
+  37 2.3003998105e+02   0.00e+00  8.24e+07    2.084331e+01   3.621561e-01   7.467680e+00  -2.250015e+00
+
+After 37 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8433          +/- 0.392        (1.881%)
+gamma           = 0.362156         +/- 0.01048      (2.893%)
+omega           = 7.46768          +/- 0.009862     (0.1321%)
+phi             = -2.25002         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 12:48:30 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.2184297276e+04   0.00e+00  8.24e+01    2.200000e+01   1.000000e-01   4.830769e+00   5.000000e-01
+  37 2.3003998105e+02   0.00e+00  8.24e+07    2.084331e+01   3.621561e-01   7.467680e+00  -2.250015e+00
+
+After 37 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8433          +/- 0.392        (1.881%)
+gamma           = 0.362156         +/- 0.01048      (2.893%)
+omega           = 7.46768          +/- 0.009862     (0.1321%)
+phi             = -2.25002         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 12:50:03 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.2184297276e+04   0.00e+00  8.24e+01    2.200000e+01   1.000000e-01   4.830769e+00   5.000000e-01
+  37 2.3003998105e+02   0.00e+00  8.24e+07    2.084331e+01   3.621561e-01   7.467680e+00  -2.250015e+00
+
+After 37 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8433          +/- 0.392        (1.881%)
+gamma           = 0.362156         +/- 0.01048      (2.893%)
+omega           = 7.46768          +/- 0.009862     (0.1321%)
+phi             = -2.25002         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 12:50:18 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.2184297276e+04   0.00e+00  8.24e+01    2.200000e+01   1.000000e-01   4.830769e+00   5.000000e-01
+  37 2.3003998105e+02   0.00e+00  8.24e+07    2.084331e+01   3.621561e-01   7.467680e+00  -2.250015e+00
+
+After 37 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8433          +/- 0.392        (1.881%)
+gamma           = 0.362156         +/- 0.01048      (2.893%)
+omega           = 7.46768          +/- 0.009862     (0.1321%)
+phi             = -2.25002         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
+
+
+*******************************************************************************
+Sun Dec 01 12:50:37 2024
+
+
+FIT:    data read from "SchwacheFeder_schwachgedämpft.csv" using 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6.00000]
+        #datapoints = 179
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * exp(-gamma * x) * cos(omega * x + phi)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             gamma         omega         phi          
+   0 3.2184297276e+04   0.00e+00  8.24e+01    2.200000e+01   1.000000e-01   4.830769e+00   5.000000e-01
+  37 2.3003998105e+02   0.00e+00  8.24e+07    2.084331e+01   3.621561e-01   7.467680e+00  -2.250015e+00
+
+After 37 iterations the fit converged.
+final sum of squares of residuals : 230.04
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.14652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 20.8433          +/- 0.392        (1.881%)
+gamma           = 0.362156         +/- 0.01048      (2.893%)
+omega           = 7.46768          +/- 0.009862     (0.1321%)
+phi             = -2.25002         +/- 0.0168       (0.7468%)
+
+correlation matrix of the fit parameters:
+                A      gamma  omega  phi    
+A               1.000 
+gamma           0.751  1.000 
+omega          -0.030 -0.040  1.000 
+phi             0.034  0.037 -0.714  1.000 
